@@ -115,18 +115,18 @@ function _showViewProps(props) {
             </div>
             <div class="row g-2">
                 <div class="form-floating">
-                    <input type="text" class="form-control" id="nomeProp" placeholder="Preencha o nome do proprietário..." value="${item.nomeProp}" required>
+                    <input type="text" class="form-control" id="nomeProp" placeholder="Preencha o nome do proprietário..." value="${item.nomeProp}" disable required>
                     <label for="floatingInputGrid">Nome do Proprietário *</label>
                 </div>
                 <div class="col-md">
                     <div class="form-floating">
-                      <input type="tel" id="contatoProp" class="form-control propPhone" maxlength="15" placeholder="(00) 00000-0000" value="${item.contatoProp}" required>
+                      <input type="tel" id="contatoProp" class="form-control propPhone" maxlength="15" placeholder="(00) 00000-0000" value="${item.contatoProp}" disable required>
                       <label for="floatingInputGrid">Contato *</label>
                     </div>
                 </div>
                 <div class="col-md">
                     <div class="form-floating">
-                      <input type="email" class="form-control" id="emailProp" placeholder="abcdefgh@email.com" value="${item.emailProp}" required>
+                      <input type="email" class="form-control" id="emailProp" placeholder="abcdefgh@email.com" value="${item.emailProp}" disable required>
                       <label for="floatingInputGrid">E-mail *</label>
                     </div>
                 </div>
